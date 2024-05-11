@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Spinner?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Controller">
+   <children>
+      <Label layoutX="21.0" layoutY="32.0" text="Input primogems : " />
+      <Label layoutX="21.0" layoutY="66.0" text="Input intertwined fate amount : " />
+      <Label layoutX="21.0" layoutY="101.0" text="Is 50/50 on?" />
+      <Label layoutX="21.0" layoutY="140.0" text="How many pulls for the character?" />
+      <TextField fx:id="tf1" layoutX="313.0" layoutY="28.0" prefHeight="25.0" prefWidth="160.0" />
+      <TextField fx:id="tf2" layoutX="313.0" layoutY="62.0" prefHeight="25.0" prefWidth="160.0" />
+      <CheckBox fx:id="cb1" layoutX="313.0" layoutY="101.0" mnemonicParsing="false" text="Check this button if it's on" />
+      <Spinner fx:id="spinner1" editable="true" layoutX="313.0" layoutY="136.0" prefHeight="25.0" prefWidth="160.0" />
+      <Button layoutX="218.0" layoutY="429.0" mnemonicParsing="false" onAction="#calculate" text="Calculate" />
+      <Label fx:id="youHaveLbl" layoutX="21.0" layoutY="198.0" text="You have : " />
+      <Label fx:id="youNeedWishLbl" layoutX="21.0" layoutY="227.0" text="You will need (Maximum) :" />
+      <Label fx:id="youNeedPrimoLbl" layoutX="21.0" layoutY="256.0" text="You will need (Maximum) :" />
+   </children>
+</AnchorPane>
